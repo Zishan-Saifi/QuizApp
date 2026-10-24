@@ -7,7 +7,16 @@
     "https": false,
     "stream": false,
     "zlib": false,
-    "child_process": false
+    "child_process": false,
+    "url": false,
+    "fs": false,
+    "path": false,
+    "os": false,
+    "crypto": false,
+    "buffer": false,
+    "util": false,
+    "tls": false
+    "net": false
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.13",
