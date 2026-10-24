@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "browser": {
-    "http": false'
-    "https": false'
+    "http": false,
+    "https": false,
     "stream": false
   },
   "dependencies": {
