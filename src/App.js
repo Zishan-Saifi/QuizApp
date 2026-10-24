@@ -8,9 +8,6 @@ import {
 } from "react-router-dom";
 import About from './pages/About/About';
 import ReviewAnswer from './pages/Review/ReviewAnswer';
-import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
 
 function App() {
 
