@@ -6,7 +6,8 @@
     "http": false,
     "https": false,
     "stream": false,
-    "zlib": false
+    "zlib": false,
+    "child_process": false
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.13",
