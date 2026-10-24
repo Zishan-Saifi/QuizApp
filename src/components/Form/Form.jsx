@@ -33,7 +33,7 @@ const Form = (props) => {
                 <div className="mb-3">
                     <label htmlFor="difficulty" className="form-label">Select Difficulty:</label>
                     <select name='difficulty' className="form-select" aria-label="Default select example" onChange={onChange}>
-                        <option value={'any'} defaultValue>Any Difficulty</option>
+                        <option value={'any'}>Any Difficulty</option>
                         {
                             getOptionsValue(quizData.difficulty)
                         }
@@ -42,7 +42,7 @@ const Form = (props) => {
                 <div className="mb-3">
                     <label htmlFor="type" className="form-label">Select Type:</label>
                     <select name='type' className="form-select" aria-label="Default select example" onChange={onChange}>
-                        <option value={'any'} defaultValue>Any Type</option>
+                        <option value={'any'}>Any Type</option>
                         {
                             getOptionsValue(quizData.type)
                         }
